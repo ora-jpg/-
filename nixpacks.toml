@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["python311", "chromium"]
+
+[phases.install]
+cmds = ["pip install -r requirements2.txt", "python -m playwright install chromium"]
+
+[start]
+cmd = "python availability_agent.py"

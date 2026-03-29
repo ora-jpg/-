@@ -1,4 +1,4 @@
 #!/bin/bash
-pip install -r requirements2.txt
-playwright install chromium
-playwright install-deps chromium
+pip3 install -r requirements2.txt
+python3 -m playwright install chromium
+python3 -m playwright install-deps chromium
